@@ -1,0 +1,12 @@
+.header-logo {
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+  color: white !important;
+}
+.navbar {
+  border-bottom: 1px solid white;
+  background-color: #14202b;
+}
+.navbar-light .navbar-text {
+  color: white;
+}

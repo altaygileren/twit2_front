@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Sans Pro";
+  background-color: #14202b;
+  color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+textarea {
+  resize: none;
+}
+.err-msg {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.body-padding {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 8rem;
+  padding-bottom: 5%;
+}
+.title-style {
+  font-size: 3rem;
+  font-family: "Righteous", cursive;
+}
+.row {
+  margin: 0;
+}
+
+/* Bootstrap changes */
+.parallax-style {
+  padding-top: 50px;
+  margin-bottom: 1rem;
+}
+.parallax-style p {
+  /* font-size: 10rem; */
+  margin-top: 5rem;
+}
+a {
+  color: #007bff !important;
+}
+.list-group-item {
+  background-color: #14202b;
+  border: 1px solid white;
+}
+.react-parallax-content {
+  width: 100% !important;
+  padding: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.green-color {
+  color: green;
+}
+.danger-color {
+  color: red;
+}
+
+.card {
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: left;
+}
+
+.comments-div {
+  padding-top: 1rem;
+}
+
+.scrollable-div {
+  overflow: scroll;
+  white-space: nowrap;
+  height: 500px;
+  border: 1px solid white;
+  padding: 10px;
 }
